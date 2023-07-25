@@ -17,4 +17,4 @@ async def start(_, m: Message):
     message += "<b>Example:-</b>\n"
     message += f"<i>{Var.URL}/Your_Channel_ID/Message_ID</i>\n\n"
     message += "<b>Repo :- https://github.com/pr13260/TGFilesStream-glitch</b>"
-    await m.reply(message)
+    await m.reply(message, disable_web_page_preview=True)
