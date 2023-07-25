@@ -18,6 +18,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(_):
+    botinfo = await StreamBot.get_me()
     return web.json_response(
         {
             "server_status": "running",
@@ -30,10 +31,11 @@ async def root_route_handler(_):
                 )
             ),
             "version": __version__,
-            "Server Url": Var.URL
+            "server_url": Var.URL,
+            "bot_username": "@"+botinfo.username,
+            "bot_link": "https://"+botinfo.username+".t.me"
         }
     )
-
 
 @routes.get(r"/{path:\S+}", allow_head=True)
 async def stream_handler(request: web.Request):
