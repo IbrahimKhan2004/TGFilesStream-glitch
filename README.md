@@ -1,3 +1,8 @@
+<h1 align="center">Telegram File Stream Bot</h1>
+<p align="center">A Telegram bot to <b>generate direct link</b> for your Telegram files.
+This bot will give you stream links for Telegram files without the need of waiting till the download completes</p>
+
+
 ### Host it on Glitch
 * ⭐ Star the Repo if you want.
 * Tap on remix button below, and edit .env file on glitch
