@@ -1,5 +1,5 @@
 <h1 align="center">Telegram File Stream Bot</h1>
-<p align="center">A Telegram bot to <b>generate direct link</b> for your Telegram files.
+<p align="center">A Telegram bot to <b>generate direct link</b> for your Telegram files.<br>
 This bot will give you stream links for Telegram files without the need of waiting till the download completes</p>
 
 
