@@ -13,7 +13,7 @@ This bot will give you stream links for Telegram files without the need of waiti
 
 - Import on Glitch
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/pr13260/TGFilesStream-glitch)
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/IbrahimKhan2004/TGFilesStream-glitch)
 
 ### Sample of .env file
 
